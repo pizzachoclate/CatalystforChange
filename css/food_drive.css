@@ -1,0 +1,76 @@
+#para{
+    text-align: left;
+}
+
+h3{
+    color: #1b3291;
+    
+}
+.small-text{
+    text-align: left;
+}
+
+
+
+/* Style the form container */
+.container {
+    max-width: 1000px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Style the form */
+.well {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Style the legend */
+legend {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the form groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Style the labels */
+.control-label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style the input boxes */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style the radio buttons */
+.radio input[type="radio"] {
+    margin-top: 0;
+}
+
+
+/* Style the submit button */
+.btn-warning {
+    background-color: #000000;
+    color: #fff;
+}
+
+.btn-warning:hover {
+    background-color: #4b186b;
+}
+

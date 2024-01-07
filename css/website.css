@@ -1,0 +1,187 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+#gala{
+  font-size: 17px;
+  text-align: left;
+}
+/* styles.css */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0; /* Adjust padding as needed */
+  text-align: center;
+  font-size: 10px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-height: 80px; /* Adjust max-height as needed */
+  max-width: 80px; /* Adjust max-width as needed */
+  /* margin: 10px; Adjust margin as needed */
+}
+
+header div {
+  margin-left: 120px; /* Adjust margin-left as needed */
+}
+
+header h1 {
+  margin-bottom: 10;
+}
+
+
+nav {
+    background-color: #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+
+
+
+
+section {
+    padding: 10px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+h2 {
+    color: #1b3291;
+    font-size: 50px;
+    
+}
+
+
+p {
+    margin: 10px 0;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+button:hover {
+    background-color: #590079;
+}
+
+
+#home{
+    color: rgb(18, 17, 17);
+    font-size: 17px;
+    text-align: left;
+}
+
+
+
+
+#activities{
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    padding:20px;
+    /* background-image: url("wallpaper.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 17px;
+    font-weight:100;
+    text-align: center;
+}
+
+/* styles.css */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+h4{text-align: center;}
+
+#myVideo {
+    width:100%;
+    height:700px;
+  }
+
+
+ h1{
+    color: azure;
+ } 
+  
+
+ a:visited {
+    color: rgb(194, 172, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .italic-text {
+    font-style: italic;
+  }
+
+  h3{
+    text-align: center;
+  }

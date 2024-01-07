@@ -1,0 +1,71 @@
+/* Style the form element with a border around it */
+form {
+  border: 4px solid #f1f1f1;
+  max-width: calc(50% - 1in); /* Adjusted max-width */
+  margin: 0 auto; /* Center the form */
+  padding: 20px; /* Adjusted padding */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+h3 {
+  text-align: center;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding: 10px; /* Adjusted padding */
+  background-color: #f1f1f1;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: calc(100% - 15px); /* Adjusted width */
+  padding: 8px; /* Adjusted padding */
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 12px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #2504aa;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+div {
+  text-align: center;
+}
+
+
+    /* Add a custom class for the subscribe button container */
+    .subscribe-container {
+        text-align: center;
+    }
+
+    /* Style the subscribe button */
+    .subscribe-container input[type="submit"] {
+        width: 100px; /* Adjust the width as needed */
+        padding: 10px;
+        font-size: 14px; /* Adjust the font size as needed */
+        background-color: #2504aa;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .subscribe-container input[type="submit"]:hover {
+        opacity: 0.8;
+    }
+
+
